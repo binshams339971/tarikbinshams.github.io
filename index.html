@@ -1290,126 +1290,19 @@
 					<!-- #CONTACT TABS -->
 					<div class="text-center contact-tabs-holder">
 						<ul class="nav nav-tabs text-uppercase small bold inline-block v-middle tabs-list contact-tabs-list" role="tablist">
-							<li role="presentation" class="active"><a class="square" href="#contact-panel-1" role="tab" data-toggle="tab">hire me</a></li>
-							<li role="presentation"><a class="square" href="#contact-panel-2" role="tab" data-toggle="tab">message</a></li>
+							<li role="presentation" class="active"><a class="square" href="#contact-panel-1" role="tab" data-toggle="tab">message</a></li>
 						</ul>
 					</div>
 
 					<!-- #CONTACT PANELS -->
 					<div class="main-block__sub-padder tab-content text-left">
 
-						<!-- HIRE FORM -->
-						<div id="contact-panel-1" class="tab-pane active">
-
-							<!-- RESULTS MESSAGES -->
-							<div class="alert hidden" role="alert" style="margin-bottom: 30px;">
-							   <button type="button" class="close pull-right" data-hide="alert"><span aria-hidden="true"><i class="fa fa-times"></i></span><span class="sr-only">Close</span></button>
-							   <p></p>
-							</div>
-
-							<!-- #HIRE FORM -->
-							<form action="inc/contact/request.php" id="hire-form" role="form" class="contact-form" method="post">
-								<div class="row form-list">
-
-									<!-- Security Elements -->
-									<input type="text" class="is_legit" name="is_legit">
-									<input type="text" class="is_legit" name="action" value="hire">
-									<!-- Security Elements -->
-
-									<!-- FORM NAME -->
-									<div class="col-xs-12 col-md-6 col-lg-4">
-										<label class="bold text-capitalize">your name *</label>
-										<input type="text" name="hireme_name" class="form-control" required>
-									</div>
-
-									<!-- FORM EMAIL -->
-									<div class="col-xs-12 col-md-6 col-lg-4">
-										<label class="bold text-capitalize">your email *</label>
-										<input type="email" name="hireme_email" class="form-control" required>
-									</div>
-
-									<!-- TIMEFRAME OPTION -->
-									<div class="col-xs-12 col-md-6 col-lg-4">
-										<label class="bold text-capitalize">your timeframe *</label>
-										<select name="hireme_timeframe" class="form-control">
-											<option value="">select option</option>
-											<option value="1">As soon as possible (rush job)</option>
-											<option value="2">Within 1 week (rush job)</option>
-											<option value="3">Within 2 weeks</option>
-											<option value="4">Within a month</option>
-											<option value="5">Sometime in the next few months</option>
-											<option value="6">I'm not really sure</option>
-										 </select>
-									</div>
-
-									<!-- EXPERIENCE OPTION -->
-									<div class="col-xs-12 col-md-6 col-lg-4">
-										<label class="bold text-capitalize">Your Web Experience Level *</label>
-										<select name="hireme_experience" class="form-control">
-											<option value="">select option</option>
-											<option value="1">Not much, I'll need your help</option>
-											<option value="2">Average - I surf the web</option>
-											<option value="3">I can design websites</option>
-											<option value="4">I can hand code HTML</option>
-											<option value="5">I'm not really sure</option>
-										</select>
-									</div>
-
-									<!-- DECISION OPTION -->
-									<div class="col-xs-12 col-md-6 col-lg-4">
-										<label class="bold text-capitalize">Certainty About Makig Process *</label>
-										<select name="hireme_process" class="form-control">
-											<option value="">select option</option>
-											<option value="1">I'm just starting to explore options</option>
-											<option value="2">I'm sending out requests to a few vendors</option>
-											<option value="3">I want to use you, I just need some more details</option>
-											<option value="4">I'm ready to get started, where do I send payment?</option>
-										</select>
-									</div>
-
-									<!-- PACKAGE OPTION -->
-									<div class="col-xs-12 col-md-6 col-lg-4">
-										<label class="bold text-capitalize">Your Prefered Package *</label>
-										<select name="hireme_package" class="form-control">
-											<option value="">select option</option>
-											<option value="1">designer</option>
-											<option value="2">developer</option>
-											<option value="3">speaker</option>
-										</select>
-									</div>
-
-									<!-- REQUIREMENTS -->
-									<div class="col-xs-12">
-										<label class="bold text-capitalize">Describe Your Project And Requirements *</label>
-										<textarea name="hireme_requirements" class="form-control" rows="15" required></textarea>
-									</div>
-
-									<!-- CAPTCHA & SUBMIT -->
-									<div class="col-xs-12">
-										
-										<div class="inline-block captcha-holder">
-											<input type="text" name="#" class="captcha-number" value="1" readonly> +
-											<input type="text" name="#" class="captcha-number" value="1" readonly> =
-											<input class="captcha form-control" type="text" name="captcha" maxlength="2" required>
-										</div><!--
-										--><input type="submit" class="btn btn--main-inverted" value="Submit Quote">
-									</div>
-								</div>
-							</form>
-
-						</div>
 
 						<!-- CONTACT FORM -->
-						<div id="contact-panel-2" class="tab-pane">
-
-							<!-- RESULTS MESSAGES -->
-							<div class="alert hidden" role="alert" style="margin-bottom: 30px;">
-							   <button type="button" class="close pull-right" data-hide="alert"><span aria-hidden="true"><i class="fa fa-times"></i></span><span class="sr-only">Close</span></button>
-							   <p></p>
-							</div>
+						<div id="contact-panel-1" class="tab-pane active">
 
 							<!-- #CONTACT FORM -->
-							<form action="inc/contact/request.php" id="message-form" role="form" class="contact-form" method="post">
+							<form action="" id="message-form" role="form" class="contact-form" method="post">
 								<div class="row form-list">
 
 									<!-- Security Elements -->
@@ -1440,15 +1333,8 @@
 										<textarea name="contact_message" class="form-control" rows="15" required></textarea>
 									</div>
 
-									<!-- CAPTCHA & SUBMIT -->
 									<div class="col-xs-12">
-										
-										<div class="inline-block captcha-holder">
-											<input type="text" name="#" class="captcha-number" value="1" readonly> +
-											<input type="text" name="#" class="captcha-number" value="1" readonly> =
-											<input id="captcha" class="captcha form-control" type="text" name="captcha" maxlength="2" required>
-										</div><!--
-										--><input type="submit" class="btn btn--main-inverted" value="Submit message">
+										<input type="submit" class="btn btn--main-inverted" value="Submit message">
 									</div>
 								</div>
 							</form>
