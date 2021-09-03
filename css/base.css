@@ -368,10 +368,21 @@ h6, .h6 { font-family: 'Open Sans', sans-serif; }
 	position: relative;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	-webkit-background-size: cover;
+	        background-size: cover;
+}
+
+@media (max-width: 767px) 
+{
+	.bg-image
+{ 
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	-webkit-background-size: contain;
 	        background-size: contain;
 }
-
+}
 	.overlay
 	{
 		content: '';
